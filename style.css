@@ -379,6 +379,9 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
-
-
+    }
+    #msg{
+        color: #61b752;
+        margin-top: -20px;
+        display: block;
     }    
