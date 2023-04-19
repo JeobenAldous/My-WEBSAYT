@@ -4,9 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documents</title>
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6251c87c47.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX designer</p>
+            <h1>Hi, I'm <span>Jeoben</span><br>BSIT student from NTC</h1>
+        </div>
+    </div>
+    </div>
+    <!-- --------------about---------------- --->
+    <div id="about">
+        <div class="container">
+              <div class="row">
+                   <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                   </div>
+                   <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> descriptions of background
+                        asdas adasd adsad asd asd asd asd asd as d
+                    </p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">experience</p>
+                        <p class="tab-links"onclick="opentab('education')">education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>web dev</span><br>Web app dev</li>
+                            <li><span>App dev</span><br>building Andriod/IoS</li>
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents"id="experience">
+                        <ul>
+                           <li><span>247ai</span><br>tech support</li>
+                           <li><span>empty</span><br>empty</li>
+                           <li><span>machine learning</span><br>facial recognition developer</li>
+
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>bachelor of IT</span><br>major in programming</li>
+                           <li><span>Blender </span><br>designer</li>
+                           <li><span>OJT</span><br>400hrs</li>
+
+                        </ul>
+                      </div>
+                   </div>
+              </div>
+        </div>
+    </div>
+    <!------------services-------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>web design</h2>
+                    <p>asdas asd asd asd asd as da sd as da sd asd a ds</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                    <h2>UI/UX design</h2>
+                    <p>asdas asd asd asd asd as da sd as da sd asd a ds</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>app design</h2>
+                    <p>asdas asd asd asd asd as da sd as da sd asd a ds</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-----------------------portfolio---------------------------->
+     <div id="portfolio">
+        <div class="container">
+                <h1 class="sub-title">My OJT</h1>
+            <div class="work-list">
+                <div class="work">
+                   <img src="images/ojt-1.png">
+                   <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it on google play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                   <img src="images/ojt-2.png">
+                   <div class="layer">
+                    <h3>google meet with OJT instructor</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it on google play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                   <img src="images/ojt-3.png">
+                   <div class="layer">
+                    <h3>web developing practices</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it on google play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+                </div>
+                 
+            </div>
+     </div>
+     </div>
+    <script src="MYJS.js"></script>
 </body>
 </html>
