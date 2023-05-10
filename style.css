@@ -176,9 +176,12 @@ nav ul li a:hover::after{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 .services-list div a:hover {
-    background-color: #3e8e41;
+    background-color: #040704;
+    margin: top 30px;
   }
 .services-list div:hover{
     background: #ff004f;
